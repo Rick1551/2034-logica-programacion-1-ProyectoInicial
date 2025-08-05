@@ -11,8 +11,12 @@ function contarRegresivo() {
     console.log("Contador: " + contadorDown);
 }
 
-while (contadorUp < 10 && contadorDown > 0) {
+function contador() {
+    while (contadorUp < 10 && contadorDown > 0) {
     alert("Contador progresivo: " + contadorUp + "\nContador regresivo: " + contadorDown);
     contarProgresivo();
     contarRegresivo();
 }
+}
+
+
