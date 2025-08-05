@@ -27,3 +27,5 @@ function final() {
 
     console.log("Fin del juego final");
 }
+
+final();
